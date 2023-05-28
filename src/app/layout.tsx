@@ -1,13 +1,10 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
-import { Inter, Roboto_Mono, Space_Grotesk } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] });
+import { Roboto_Mono, Space_Grotesk } from 'next/font/google'
 
  const spaceGrotesk = Space_Grotesk({
   subsets: ['latin']
 })
-
  const robotoMono = Roboto_Mono({
   subsets: ['latin'],
   display: 'swap',
@@ -25,8 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={spaceGrotesk.className}>
-        <div className='grid place-content-center min-h-screen bg-[#141c2f]'>
-        <div className='sm:w-[500px] md:w-[600px] lg:w-[700px]'>
+        <div className='grid place-content-center w-full min-h-screen bg-[#141c2f]'>
+        <div className='sm:w-[500px] md:w-[600px] lg:w-[700px] grid gap-2'>
         <Navbar />
         {children}
         </div>

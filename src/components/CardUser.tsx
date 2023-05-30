@@ -1,3 +1,8 @@
+import BuildingIcon from "./icons/BuildingIcon"
+import LinkIcon from "./icons/LinkIcon"
+import LocationIcon from "./icons/LocationIcon"
+import TwitterIcon from "./icons/TwitterIcon"
+
 const CardUser = () => {
     const url = "https://avatars.githubusercontent.com/u/72955349?v=4"
     return (
@@ -11,7 +16,7 @@ const CardUser = () => {
                     <small className="">Joined xx/xx/xx</small>
                 </div>
 
-                <p> bio </p>
+                <p className="m-2"> bio </p>
                 <div className="bg-gray-900 rounded-3xl p-4 grid grid-cols-3 ">
                     <h3>Repos</h3>
                     <h3>Followers</h3>
@@ -20,11 +25,11 @@ const CardUser = () => {
                     <p>2456</p>
                     <p>9</p>
                 </div>
-                <div className="small grid grid-cols-2">
-                    <h3>San Francisco</h3>
-                    <h3>www.git.com</h3>
-                    <h3>not available</h3>
-                    <h3>@github</h3>
+                <div className="small grid grid-cols-2 pt-4">
+                    <h3 className="flex p-2"> <span className="mr-3"> <LocationIcon className="w-[16px] fill-white" /> </span> San Francisco</h3>
+                    <h3 className="flex p-2"> <span className="mr-3"> <LinkIcon className="w-[16px] fill-white"  /> </span> www.git.com</h3>
+                    <h3 className="flex p-2"> <span className="mr-3"> <BuildingIcon className="w-[16px] fill-white" /> </span> not available</h3>
+                    <h3 className="flex p-2"> <span className="mr-3"> <TwitterIcon className="w-[16px] fill-white" /> </span>@github</h3>
                 </div>
          </div>
         </div>

@@ -46,28 +46,28 @@ const CardUser = ({ user }: CardUserProps) => {
                 </div>
                 <div className="small grid grid-cols-2 pt-4">
                     <h3 className="flex p-2"> <span className="mr-3"> <LocationIcon className="w-[16px] fill-white" /> </span>
-                    {!user.location === length>3 ?
-                        (user.location) :
-                        "not available"
-                    }
-                     </h3>
+                        {!user.location === length > 3 ?
+                            (user.location) :
+                            "not available"
+                        }
+                    </h3>
                     <h3 className="flex p-2"> <span className="mr-3"> <TwitterIcon className="w-[20px] fill-white" /> </span>
-                    {!user.twitter_username === length>3 ?
-                        (user.twitter_username) :
-                        "not available"
-                    }
+                        {!user.twitter_username === length > 3 ?
+                            (user.twitter_username) :
+                            "not available"
+                        }
                     </h3>
                     <h3 className="flex p-2"> <span className="mr-3"> <LinkIcon className="w-[20px] fill-white" /> </span>
-                     {!user.blog === length>3 ?
-                        (user.blog) :
-                        "not available"
-                    }
-                     </h3>
-                    <h3 className="flex p-2"> <span className="mr-3"> <BuildingIcon className="w-[16px] fill-white" /> </span> 
-                    {!user.company === length>3 ?
-                        (user.company) :
-                        "not available"
-                    }
+                        {!user.blog === length > 3 ?
+                            (user.blog) :
+                            "not available"
+                        }
+                    </h3>
+                    <h3 className="flex p-2"> <span className="mr-3"> <BuildingIcon className="w-[16px] fill-white" /> </span>
+                        {!user.company === length > 3 ?
+                            (user.company) :
+                            "not available"
+                        }
                     </h3>
                 </div>
             </div>

@@ -1,35 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TS-GitSearcher 👥
+![img](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![img](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![img](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![tumblr_87a6675d46dd49adef670af296f4d4e3_3389a0ea_2048](https://64.media.tumblr.com/9538a5313e7ad0fdd040030848fbdf6d/676a6cfcab52675e-5f/s2048x3072/0b73aa8dce2cd5708340d68ae607956e558ce836.pnj)
 
-## Getting Started
+## About 🔍
 
-First, run the development server:
+>>React web project, where the purpose is to enter a git username and obtain its information with an API call from git (https://docs.github.com/en/rest) </p>
+>>This project is a Fronted Mentor project (https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6) </p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Functionality 👤
+This page offers to quickly look at git user information, including their avatar, date created, number of followers and number of repositories. </p>
+<img width="1001" src="https://github.com/Tina-bot/TS-GitSearcher/assets/72955349/aacab150-4bd2-4dce-b7ee-72c856e0200b">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Live Preview 👁‍🗨
+🌐 [https://iat-react.netlify.app/](https://ts-git-searcher.vercel.app/) 🌐
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## To fix 🔧
+<li> Add Light Mode </li>
+<li> Add better responsive on mobile </li>
 
-## Learn More
+<br/> 
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# TS-GitSearcher
+![tumblr_87a6675d46dd49adef670af296f4d4e3_3389a0ea_2048](
+https://64.media.tumblr.com/9538a5313e7ad0fdd040030848fbdf6d/676a6cfcab52675e-5f/s2048x3072/0b73aa8dce2cd5708340d68ae607956e558ce836.pnj)

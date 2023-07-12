@@ -1,8 +1,9 @@
-# TS-GitSearcher 👥
+![tumblr_87a6675d46dd49adef670af296f4d4e3_3389a0ea_2048](https://64.media.tumblr.com/9538a5313e7ad0fdd040030848fbdf6d/676a6cfcab52675e-5f/s2048x3072/0b73aa8dce2cd5708340d68ae607956e558ce836.pnj)
+# GitSearcher 👥
 ![img](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![img](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![img](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![tumblr_87a6675d46dd49adef670af296f4d4e3_3389a0ea_2048](https://64.media.tumblr.com/9538a5313e7ad0fdd040030848fbdf6d/676a6cfcab52675e-5f/s2048x3072/0b73aa8dce2cd5708340d68ae607956e558ce836.pnj)
+
 
 ## About 🔍
 
